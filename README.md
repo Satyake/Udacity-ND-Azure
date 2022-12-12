@@ -5,13 +5,13 @@ In this problem, the goal is to predict the Probability or Likelihood of a custo
 
 For this problem, a SVM classifier was utlized for the first part of the project.
 
-#Pipeline details
+# Pipeline details
 
 The model was built on Sklearn. There are 2 components. The first component contained scripts which included the setup of workspace, registering the dataset from the datastore. Note, for registering the dataset, i have used the Tabular.delimited_from files class which is a method of the Tabular Data Factory. This part of the script also includes cluster provisionment and ensuring the Virtual Machine as the required libraries such as pandas and sciki-learn. These have been configured using the condadependencies module. The ScriptRunConfig module is used to point to the training script which uses the azure registered dataset by using new_run.get_context().
 The second part of the script contains the standard training and testing splits followed by the plot of confusion matrix and the accuracy. Finally the Hyperdrive config is setup which includes RandomParameter Sampling with hyperparameters of SVM which includes the slack parameter, the kernel type and the degree. 
 
 
-#AutoML
+# AutoML
 AutoML has been used to train the model. AutoML finds the best model to fit by comparing the performance. The primary metric chosen was the Accuracy in this case.
 The AutoML returned the following models as having the best performance interms of its accuracy.
  ITER   PIPELINE                                       DURATION            METRIC      BEST
