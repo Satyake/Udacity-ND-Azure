@@ -22,4 +22,4 @@ The AutoML returned the following models as having the best performance interms 
     3   VotingEnsemble                                0:00:41             1.0000    1.0000
     4   StackEnsemble                                 0:00:50             1.0000    1.0000
  Note: The Loans dataset is fairly simple and is very easy to classify hence the extreme performance. 
- Without AutoML the SVM SVC yielded an accuracy of 0.87. The AutoML approach resulted in 100%.
+ Without AutoML the SVM SVC yielded an accuracy of 87%. The AutoML approach resulted in 100%.
