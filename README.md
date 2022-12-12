@@ -24,5 +24,9 @@ The AutoML returned the following models as having the best performance interms 
  Note: The Loans dataset is fairly simple and is very easy to classify hence the extreme performance. 
  Without AutoML the SVM SVC yielded an accuracy of 87%. The AutoML approach resulted in 100%.
 
-#Trials
+# Trials
 ![Trials](https://github.com/Satyake/Udacity-ND-Azure/blob/main/trials.jpg)
+# Experiment Setup
+![Experiment Setup-Hyperdrive]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/udacity2.jpg)
+# Running Experiment
+![Experiment] ( ttps://github.com/Satyake/Udacity-ND-Azure/blob/main/running%20experiment_udacity.jpg)
