@@ -28,5 +28,4 @@ The AutoML returned the following models as having the best performance interms 
 ![Trials](https://github.com/Satyake/Udacity-ND-Azure/blob/main/trials.jpg)
 # Experiment Setup
 ![Experiment Setup-Hyperdrive]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/udacity2.jpg)
-# Running Experiment
-![Experiment](ttps://github.com/Satyake/Udacity-ND-Azure/blob/main/running%20experiment_udacity.jpg)
+
