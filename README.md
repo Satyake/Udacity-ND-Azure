@@ -1,9 +1,25 @@
 # Udacity-ND-Azure
-Dataset: Loans 
-Dataset Objective: To predict the Probability of Default based on details of customers. Dataset contained various features which included attributes such as age, gender, income, equity holdings, credit scores from equifax, transunion.etc For the first phase:
+In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."
 
-Cluster Setup: STANDARD_D2_V2 with 2 nodes max
-The script is trained using my University Account which is a corporate account.
-The training script used the SVM/SVC classifier (Support Vector Machine) with its parameters configured such as C, kernel type, degree, etc. For the first part of the project, the model is trained using SVM SVC with hyperparameter tuning configured from HyperDrive. Note: The Hyperdrive run has been interrupted in between to minimize costs. But the best-performing model has been retrieved from the given runs.
+In this problem, the goal is to predict the Probability or Likelihood of a customer defaulting. The dataset contained data obtained from various financial insitutes accross the world. The features in the dataset includes details like, loan amount, credit score, property held, age, income, equities owned .etc Using these features the ML model seeks to classify whether a client has defaulted or not.
 
-For the second part, the AutoML has been running and the best-performing model has been reported by the get_best_child() function. The best performing automl model is then saved in the form of pickl file.
+For this problem, a SVM classifier was utlized for the first part of the project.
+
+#Pipeline details
+
+The model was built on Sklearn. There are 2 components. The first component contained scripts which included the setup of workspace, registering the dataset from the datastore. Note, for registering the dataset, i have used the Tabular.delimited_from files class which is a method of the Tabular Data Factory. This part of the script also includes cluster provisionment and ensuring the Virtual Machine as the required libraries such as pandas and sciki-learn. These have been configured using the condadependencies module. The ScriptRunConfig module is used to point to the training script which uses the azure registered dataset by using new_run.get_context().
+The second part of the script contains the standard training and testing splits followed by the plot of confusion matrix and the accuracy. Finally the Hyperdrive config is setup which includes RandomParameter Sampling with hyperparameters of SVM which includes the slack parameter, the kernel type and the degree. 
+
+
+#AutoML
+AutoML has been used to train the model. AutoML finds the best model to fit by comparing the performance. The primary metric chosen was the Accuracy in this case.
+The AutoML returned the following models as having the best performance interms of its accuracy.
+ ITER   PIPELINE                                       DURATION            METRIC      BEST
+  WARNING:root:Received unrecognized parameter featureization
+    0   MaxAbsScaler LightGBM                          0:00:19             1.0000    1.0000
+    1   MaxAbsScaler XGBoostClassifier                 0:00:24             1.0000    1.0000
+    2   MaxAbsScaler ExtremeRandomTrees                0:00:22             1.0000    1.0000
+    3    VotingEnsemble                                0:00:41             1.0000    1.0000
+    4    StackEnsemble                                 0:00:50             1.0000    1.0000
+ Note: The Loans dataset is fairly simple and is very easy to classify hence the extreme performance. 
+ Without AutoML the SVM SVC yielded an accuracy of 0.87. The AutoML approach resulted in 100%.
