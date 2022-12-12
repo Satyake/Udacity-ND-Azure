@@ -25,4 +25,4 @@ The AutoML returned the following models as having the best performance interms 
  Without AutoML the SVM SVC yielded an accuracy of 87%. The AutoML approach resulted in 100%.
 
 #Trials
-!(https://github.com/Satyake/Udacity-ND-Azure/blob/main/trials.jpg)
+![Trials](https://github.com/Satyake/Udacity-ND-Azure/blob/main/trials.jpg)
