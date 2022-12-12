@@ -9,6 +9,7 @@ For this problem, a SVM classifier was utlized for the first part of the project
 
 The model was built on Sklearn. There are 2 components. The first component contained scripts which included the setup of workspace, registering the dataset from the datastore. Note, for registering the dataset, i have used the Tabular.delimited_from files class which is a method of the Tabular Data Factory. This part of the script also includes cluster provisionment and ensuring the Virtual Machine as the required libraries such as pandas and sciki-learn. These have been configured using the condadependencies module. The ScriptRunConfig module is used to point to the training script which uses the azure registered dataset by using new_run.get_context().
 The second part of the script contains the standard training and testing splits followed by the plot of confusion matrix and the accuracy. Finally the Hyperdrive config is setup which includes RandomParameter Sampling with hyperparameters of SVM which includes the slack parameter, the kernel type and the degree. The RandomParameter sampling simply forms random combinations accross the provided metrics and picks the best combination based on the model performance.
+![Hyperdrive](https://github.com/Satyake/Udacity-ND-Azure/blob/main/compute.jpg)
 
 
 # AutoML
@@ -24,6 +25,5 @@ The AutoML returned the following models as having the best performance interms 
  Note: The Loans dataset is fairly simple and is very easy to classify hence the extreme performance. 
  Without AutoML the SVM SVC yielded an accuracy of 87%. The AutoML approach resulted in 100%.
 
-# HyperDrive Training
-![Hyperdrive](https://github.com/Satyake/Udacity-ND-Azure/blob/main/udacity2.jpg)
+
 
