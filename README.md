@@ -1,5 +1,5 @@
 # Udacity-ND-Azure
-In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."
+
 
 In this problem, the goal is to predict the Probability or Likelihood of a customer defaulting. The dataset contained data obtained from various financial insitutes accross the world. The features in the dataset includes details like, loan amount, credit score, property held, age, income, equities owned .etc Using these features the ML model seeks to classify whether a client has defaulted or not.
 
@@ -13,13 +13,13 @@ The second part of the script contains the standard training and testing splits 
 
 # AutoML
 AutoML has been used to train the model. AutoML finds the best model to fit by comparing the performance. The primary metric chosen was the Accuracy in this case.
-The AutoML returned the following models as having the best performance interms of its accuracy.
+The AutoML returned the following models as having the best performance interms of its accuracy. 
  ITER   PIPELINE                                       DURATION            METRIC      BEST
   WARNING:root:Received unrecognized parameter featureization
     0   MaxAbsScaler LightGBM                          0:00:19             1.0000    1.0000
     1   MaxAbsScaler XGBoostClassifier                 0:00:24             1.0000    1.0000
     2   MaxAbsScaler ExtremeRandomTrees                0:00:22             1.0000    1.0000
-    3    VotingEnsemble                                0:00:41             1.0000    1.0000
-    4    StackEnsemble                                 0:00:50             1.0000    1.0000
+    3   VotingEnsemble                                0:00:41             1.0000    1.0000
+    4   StackEnsemble                                 0:00:50             1.0000    1.0000
  Note: The Loans dataset is fairly simple and is very easy to classify hence the extreme performance. 
  Without AutoML the SVM SVC yielded an accuracy of 0.87. The AutoML approach resulted in 100%.
