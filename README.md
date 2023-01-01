@@ -30,5 +30,5 @@ The AutoML returned the following models as having the best performance interms 
 
 
 # Operationalizing Machine Learning Pipelines
-In this Section an Azure AutoML pipeline has been created and deployed as a web service. The following lists the steps taken:
+In this Section an Azure AutoML pipeline has been created and deployed as a web service. The following Sections list the crucial steps undertaken.
   # Compute Provisoning
