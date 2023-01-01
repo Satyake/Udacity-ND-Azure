@@ -1,5 +1,6 @@
-# Udacity-ND-Azure
+# Udacity-Azure Machine Learning Engineer
 
+# Section 1  HyperDrive and AutoML
 
 In this problem, the goal is to predict the Probability or Likelihood of a customer defaulting. The dataset contained data obtained from various financial insitutes accross the world. The features in the dataset includes details like, loan amount, credit score, property held, age, income, equities owned .etc Using these features the ML model seeks to classify whether a client has defaulted or not.
 
@@ -29,8 +30,10 @@ The AutoML returned the following models as having the best performance interms 
 
 
 
-# Operationalizing Machine Learning Pipelines
+#  Section 2 Operationalizing Machine Learning Pipelines
 In this Section an Azure AutoML pipeline has been created and deployed as a web service. The following Sections list the crucial steps undertaken.
   # Compute Provisoning
   A Machine Learning Computer Cluster is provisoned using the Azure ML SDK with maximum node count of 4 and priority set to low for saving costs. The following   screenshot lists the same,
 ![Compute Provisioning](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20182114.jpg)
+
+ # Defining AutoML and AutoML Pipeline Steps as Pipelines
