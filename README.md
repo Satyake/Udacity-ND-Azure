@@ -32,3 +32,4 @@ The AutoML returned the following models as having the best performance interms 
 # Operationalizing Machine Learning Pipelines
 In this Section an Azure AutoML pipeline has been created and deployed as a web service. The following Sections list the crucial steps undertaken.
   # Compute Provisoning
+  A Machine Learning Computer Cluster is provisoned using the Azure ML SDK with maximum node count of 4 and priority set to low for saving costs. The following   screenshot lists the same,
