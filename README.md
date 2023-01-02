@@ -65,3 +65,8 @@ Once the Model Registration is complete we set up the environments and necessary
 
 ![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132634.jpg)
 
+Screenshot showing healthy deployment with the rest endpoint.
+![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132746.jpg)
+
+
+
