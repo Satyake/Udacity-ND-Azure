@@ -72,7 +72,11 @@ After we have the deployment up and running. As an additional requirement for th
 
 ![Swagger](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20150136.jpg)
 
+Following screenshot shows the  REST endpoint and the authentication. (For Obvious reasons the authentication has been deactivated for security reasons).
+![Swagger](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20151447.jpg)
 
+### Comment about model performance: 
+The model performance is poor in account for its severe under-represented 'yes' category hence the model performance is poor. 
 
 
 
