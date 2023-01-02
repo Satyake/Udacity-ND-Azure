@@ -47,10 +47,7 @@ After the automl runs complete, the best performing model can be viwed in the SD
  
  Following screenshot shows the best model determined by auto ml. Screenshot attached:
  
- ![AutoML run exerpt]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20131702.jpg)
- 
- The model metrics are as follows: 
- 
+ ![AutoML run exerpt]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20131702.jpg) 
 
 ### Publishing the pipeline
 Following lines of code show the process for publishing the pipeline and to generate its endpoint.
