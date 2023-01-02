@@ -61,4 +61,7 @@ Before the best model can be deployed it needs to be registered to Azure first. 
 
 ![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132147.jpg)
 
+Once the Model Registration is complete we set up the environments and necessary cluster provisoning for deployment. The model is deployed on the Azure Container Instance. Before deployment an inference configuration is required which takes in a scoring script and an optional environment definition yaml file. In my case the run environment was automatically inferred hence the yaml file was not used. After this we set up a deployment config which specifies to azure the amount of ram and cpu cores to use. Finally the model is deployed using the Model.Deploy method. Following screenshot illustrates the same. 
+
+![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132634.jpg)
 
