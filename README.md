@@ -44,7 +44,9 @@ In this Section an Azure AutoML pipeline has been created and deployed as a web 
  ### Retrieving the best automl model
 After the automl runs complete, the best performing model can be viwed in the SDK as well as viewed using the Python SDK. Following lines illustrates few of the automl runs as the framework runs multiple models and evaluates against the metrics specified in the run steps.
  ![AutoML run exerpt](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20131252.jpg)
+ 
  Following screenshot shows the best model determined by auto ml. Screenshot attached:
+ 
  ![AutoML run exerpt]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20131702.jpg)
 
 ### Publishing the pipeline
