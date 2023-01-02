@@ -44,3 +44,5 @@ In this Section an Azure AutoML pipeline has been created and deployed as a web 
  # Retrieving the best automl model
 After the automl runs complete, the best performing model can be viwed in the SDK as well as viewed using the Python SDK. Following lines illustrates this
 
+# Publishing the pipeline
+Following steps show the process for publishing the pipeline and to generate its endpoint.
