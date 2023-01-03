@@ -75,5 +75,6 @@ Following screenshot shows the  REST endpoint and the authentication. (For Obvio
 ### Comment about model performance: 
 The model performance is poor in account for its severe under-represented 'yes' category hence the model performance is poor. 
 
+Screencast: https://www.youtube.com/watch?v=LD4z6BcimK0
 
 
