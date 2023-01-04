@@ -32,6 +32,13 @@ The AutoML returned the following models as having the best performance interms 
 
 #  Section 2 Operationalizing Machine Learning Pipelines
 In this Section an Azure AutoML pipeline has been created and deployed as a web service. The following Sections list the crucial steps undertaken.
+
+  ### Dataset and Datastore Registration
+  For this excercise i have used an external storage account created through the azure portal and then registered using the .register_from_azure_blob_container() method. Once this is done, the datastore is called along with the container specified in the previous method with the Dataset.Tabular From Delimited files. This was used since we are essentially working with csv files. The section of code has been visualized for reference.
+  
+   ![Dataset and Datastore registration]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20101737.jpg) 
+
+
   ### Compute Provisoning
   A Machine Learning Computer Cluster is provisoned using the Azure ML SDK with maximum node count of 4 and priority set to low for saving costs. The following   screenshot lists the same,
 ![Compute Provisioning](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20182114.jpg)
