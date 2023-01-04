@@ -43,7 +43,6 @@ In this Section an Azure AutoML pipeline has been created and deployed as a web 
    ![Dataset and Datastore registration](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20101923.jpg) 
 
 
-
   ### Compute Provisoning
   A Machine Learning Computer Cluster is provisoned using the Azure ML SDK with maximum node count of 4 and priority set to low for saving costs. The following   screenshot lists the same,
 ![Compute Provisioning](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20182114.jpg)
@@ -52,6 +51,11 @@ In this Section an Azure AutoML pipeline has been created and deployed as a web 
  The autoML pipeline steps include the creation of two intermediate steps which contains the model metrics and the other the model data. This is achieved by the TrainingOutput module. These intermediary steps ensure that the appropriate steps are logged. Following this the AutoMLStep is used to create the automl pipeline before finally being called by the Pipeline. Following screenshot shows this process.
  
  ![AutoML pipeline creation and Execution](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20202347.jpg)
+ 
+ Executed Pipeline Auto ML
+ 
+  ![Executed Pipeline]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20102125.jpg)
+
  
  ### Retrieving the best automl model
 After the automl runs complete, the best performing model can be viwed in the SDK as well as viewed using the Python SDK. Following lines illustrates few of the automl runs as the framework runs multiple models and evaluates against the metrics specified in the run steps.
