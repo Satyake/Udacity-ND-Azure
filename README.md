@@ -97,6 +97,8 @@ Following screenshot shows the endpoint calls though the notebook (VSCODE):
 
 ![deployment](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20105735.jpg)
 
+### Future Directions
+In this case i would have made sure of using the PythonScript Step to have additional control for the training and validation tasks. The use of AutoML is good when not much domain expertise is needed. In my opinion i would take advantage of other Synthethic Feature Engineering techniques like SMOTE. Things like class seperability linear or non linear is a crucial aspect to be understood by Data professionals. Certain assumptions must also be validated before any machine learning model is used hence my apprehension for AutoML.
 
 ### Comment about model performance: 
 The model performance is poor in account for its severe under-represented 'yes' category hence the model performance is poor. 
