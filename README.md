@@ -69,6 +69,11 @@ After the automl runs complete, the best performing model can be viwed in the SD
 Following lines of code show the process for publishing the pipeline and to generate its endpoint.
 ![AutoML pipeline creation and Execution](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20202716.jpg)
 
+Once the endpoint is called using the authenthication headers and the Json payload the pipeline gets executed. Following screenshot confirms this. The first run was of the actual automl pipeline when i was run the first time. The second one was when it was called though the notebook.
+
+![Pipeline](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20105430.jpg)
+
+
 ### Model Deployment
 Before the best model can be deployed it needs to be registered to Azure first. Following lines of code demonstrate this. I have registered the model using the run variable defined from the workspace.get_run() method which took the run id. The Run ID can be found in the Azure UI.
 
