@@ -76,6 +76,9 @@ Once the endpoint is called using the authenthication headers and the Json paylo
 Published pileine and endpoint as shown in the following screenshot:
 ![Pipeline](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-05%20142245.jpg)
 
+Pipleine calls and active status of endpoints.
+
+![Pipeline](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-05%20154605.jpg)
 
 ### Model Deployment
 Before the best model can be deployed it needs to be registered to Azure first. Following lines of code demonstrate this. I have registered the model using the run variable defined from the workspace.get_run() method which took the run id. The Run ID can be found in the Azure UI.
