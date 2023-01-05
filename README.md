@@ -112,5 +112,6 @@ In this case i would have made sure of using the PythonScript Step to have addit
 The model performance is poor in account for its severe under-represented 'yes' category hence the model performance is poor. 
 
 Screencast: https://www.youtube.com/watch?v=LD4z6BcimK0
+Screencast of Missing Requirements: https://youtu.be/DLJ1f7JU_jI (Post Review)
 
 
