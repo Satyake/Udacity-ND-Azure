@@ -41,7 +41,8 @@ In this Section an Azure AutoML pipeline has been created and deployed as a web 
    
    Registered Dataset as seen on the Azure portal in the ML workspace.
    
-   ![Dataset and Datastore registration](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20101923.jpg) 
+   <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20101923.jpg" width=30% height=30%>
+
 
 
   ### Compute Provisoning
