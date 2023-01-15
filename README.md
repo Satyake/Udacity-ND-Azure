@@ -162,6 +162,7 @@ The following screenshot shows the NN performance registed by the Azure GUI
 
 #### Hyperdrive(ing) the NN with the optimizer and epochs
 For the purpose of the capstone project i have deided to conduct a Grid Sampling of Hyperparameter tuning for its epochs and the optimizer.
+The Optimizers were configred as "RMSPROP" , "ADAM" ,"sdg" and the Epochs were configured as 100, 200 and 500. No policy was used as this is a neural network.
 
 
 ### Deployment of NN
