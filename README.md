@@ -104,6 +104,7 @@ Once the Model Registration is complete we set up the environments and necessary
 
 Screenshot showing healthy deployment with the rest endpoint.
 
+
 <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132746.jpg" width=30% height=30%>
 
 After we have the deployment up and running. As an additional requirement for this excercise, Swagger was used for identifying the input parameters for the model for the endpoints. This can be done by visual inspection however swagger simplifies this process. In order to run swagger, The local machine requires docker installed. The Swagger.json file is basically the swagger url from azure deployment interface, which is essentially a json file. The swagger.json  and serve.py has to be in the same folder in order for it to run. Following screenshot shows the swagger service running on the local machine.
