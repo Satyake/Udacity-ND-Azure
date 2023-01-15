@@ -145,7 +145,7 @@ Dataset: A dataset for detecting the heart diesease [https://www.kaggle.com/data
 
 Model Selection: For the first phase of the work , AutoML has been used. The autoML model resulted in the following metrics:
 
-Accuracy: 85.5%,    FScore: 85.4%,  Precision:93.5% 
+Accuracy: 85.5%,    FScore: 85.4%,  Precision: 93.5% 
 
 
 
