@@ -155,6 +155,11 @@ The following call backs were added
 1) ReduceLRonPlateau: 0.2. The validation loss is monitored before the learning rate is reduced by the fiven factor if validation loss plateaus.
 2) Checkpoint: Tensorflow periodically saves the best performance by monitoring the model checkpoints in each folders created by the callback.
 
+The following screenshot shows the NN performance registed by the Azure GUI
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/NNConfusionMatrix-cap.jpg)
+
+#### Hyperdrive(ing) the NN with the optimizer and epochs
+For the purpose of the capstone project i have deided to conduct a Grid Sampling of Hyperparameter tuning for its epochs and the optimizer.
 
 
 ### Deployment of NN
