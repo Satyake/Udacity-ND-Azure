@@ -139,7 +139,7 @@ Training Regimen: The Neural Network was trained for 500 epochs with a batch siz
 ### AutoML Results
 
 AutoML Run details as viewed below:
-![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/automlrundetails-cap.jpg)
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/automlrundetails1-cap.jpg)
 
 AutoML Performance Results:
 AutoML metrics for the best model
