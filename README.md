@@ -123,7 +123,7 @@ Screencast of Missing Requirements: https://youtu.be/DLJ1f7JU_jI (Post Review)
 
 Dataset: A dataset for detecting the heart diesease [Link Here]
 
-Model Selection: For the first phase of the work , AutoML has been used. The autoML model resulted in a performance of 
+Model Selection: For the first phase of the work , AutoML has been used. The autoML model resulted in the following metrics:
 Accuracy: 85.5%   
 FScore: 85.4% 
 Precision:93.5% 
@@ -133,9 +133,11 @@ The details can be viewed under the AutoML Results section. The following screen
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/automlsettings-cap.jpg)
 
 As a second deliverable for the capstone, i have decided to go with a Neural Network (Multi Layered Perceptron) which included 29 nodes in the first layers the second one had 59 nodes and the final layer had a single node with a Sigmoid activation function. The sigmoid activation function generates a probability score between 0 and 1. The model performance was similar to the automl performance results.
+
 Accuracy: 91.7%
 FScore: 91.9%
 Precision: 95%
+
 Training Regimen: The Neural Network was trained for 500 epochs with a batch size of 12. The train-validation split was set at 25%. The model also leveraged the use of callbacks. The callbacks included a parameter for Variable Learning rate on plateau, a loss monitor that tracks the validation accuracy and a model checkpoint for saving the best model based on improvements. This is discussed in details in the next sections.
 
 ### AutoML Results
