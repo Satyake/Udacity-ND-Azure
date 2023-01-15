@@ -148,7 +148,9 @@ AutoML metrics for the best model
 
 ## Neural Network Results (MLP)
 The structure of the neural network can be visually shown as seen below. The figure was generated using an SVG creator based on https://alexlenail.me/NN-SVG/index.html.
-![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/nn%20(1).svg)
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/nn%20(1).svg).
+
+The model accepts an input dimension of 13 elements. The second layer has 29 nodes and the third layer has 59 nodes with a final dense layer of a single node with a sigmoid activation function. The single element in the final dense layer is because of binary classification problem statement. The model had 2236 trainable parameters for the given inputs. 
 
 
 
