@@ -53,11 +53,13 @@ In this Section an Azure AutoML pipeline has been created and deployed as a web 
  ### Defining AutoML and AutoML Pipeline Steps as Pipelines
  The autoML pipeline steps include the creation of two intermediate steps which contains the model metrics and the other the model data. This is achieved by the TrainingOutput module. These intermediary steps ensure that the appropriate steps are logged. Following this the AutoMLStep is used to create the automl pipeline before finally being called by the Pipeline. Following screenshot shows this process.
  
- ![AutoML pipeline creation and Execution](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20202347.jpg)
+ 
+  <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20202347.jpg" width=30% height=30%>
+
  
  Executed Pipeline Auto ML
  
-  ![Executed Pipeline]( https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20102125.jpg)
+  <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20102125.jpg" width=30% height=30%>
 
  
  ### Retrieving the best automl model
