@@ -121,7 +121,7 @@ Screencast of Missing Requirements: https://youtu.be/DLJ1f7JU_jI (Post Review)
 
 # Section 3 : Capstone Project 
 
-Dataset: A dataset for detecting the heart diesease [Link Here]
+Dataset: A dataset for detecting the heart diesease [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset]
 
 Model Selection: For the first phase of the work , AutoML has been used. The autoML model resulted in the following metrics:
 
