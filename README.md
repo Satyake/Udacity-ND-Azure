@@ -12,8 +12,7 @@ The model was built on Sklearn. There are 2 components. The first component cont
 The second part of the script contains the standard training and testing splits followed by the plot of confusion matrix and the accuracy. Finally the Hyperdrive config is setup which includes RandomParameter Sampling with hyperparameters of SVM which includes the slack parameter, the kernel type and the degree. The RandomParameter sampling simply forms random combinations accross the provided metrics and picks the best combination based on the model performance. The Hyperdrive also took the bandity policy which is a method of early stopping subject to non performance gains. An evaluation interval of 2 and a slack factor of 0.1 was used. The evaluation interval of 2 means it will wait for 2 more epochs to see if any performance interval has been observed. The Slack factor is simply the level of performance gain or loss that is allowed from the best possible performance observed during a specific epoch.
 
 ### Script Overview:
-![Architecture](https://github.com/Satyake/Udacity-ND-Azure/blob/main/compute.jpg)
-<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/compute.jpg" width=50% height=50%>
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/compute.jpg" width=20% height=20%>
 
 ### AutoML
 AutoML has been used to train the model. AutoML finds the best model to fit by comparing the performance. The primary metric chosen was the Accuracy in this case.
