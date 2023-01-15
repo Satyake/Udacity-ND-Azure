@@ -84,6 +84,7 @@ Once the endpoint is called using the authenthication headers and the Json paylo
 
 
 Published pileine and endpoint as shown in the following screenshot:
+
 <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-05%20142245.jpg" width=30% height=30%>
 
 Pipleine calls and active status of endpoints.
@@ -93,25 +94,29 @@ Pipleine calls and active status of endpoints.
 ### Model Deployment
 Before the best model can be deployed it needs to be registered to Azure first. Following lines of code demonstrate this. I have registered the model using the run variable defined from the workspace.get_run() method which took the run id. The Run ID can be found in the Azure UI.
 
-![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132147.jpg)
+
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132147.jpg" width=30% height=30%>
+
 
 Once the Model Registration is complete we set up the environments and necessary cluster provisoning for deployment. The model is deployed on the Azure Container Instance. Before deployment an inference configuration is required which takes in a scoring script and an optional environment definition yaml file. In my case the run environment was automatically inferred hence the yaml file was not used. After this we set up a deployment config which specifies to azure the amount of ram and cpu cores to use. Finally the model is deployed using the Model.Deploy method. Following screenshot illustrates the same. 
 
-![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132634.jpg)
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132634.jpg" width=30% height=30%>
 
 Screenshot showing healthy deployment with the rest endpoint.
-![Deployments](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132746.jpg)
+
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20132746.jpg" width=30% height=30%>
 
 After we have the deployment up and running. As an additional requirement for this excercise, Swagger was used for identifying the input parameters for the model for the endpoints. This can be done by visual inspection however swagger simplifies this process. In order to run swagger, The local machine requires docker installed. The Swagger.json file is basically the swagger url from azure deployment interface, which is essentially a json file. The swagger.json  and serve.py has to be in the same folder in order for it to run. Following screenshot shows the swagger service running on the local machine.
 
-![Swagger](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20150136.jpg)
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20150136.jpg" width=30% height=30%>
 
 Following screenshot shows the  REST endpoint and the authentication. (For Obvious reasons the authentication has been deactivated for security reasons).
-![Swagger](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20151447.jpg)
+
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20151447.jpg" width=30% height=30%>
 
 Following screenshot shows the endpoint calls though the notebook (VSCODE):
 
-![deployment](https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20105735.jpg)
+<img src="(https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20105735.jpg" width=30% height=30%>
 
 ### Logs 
 The Service Logs as viewed in the workspace:
