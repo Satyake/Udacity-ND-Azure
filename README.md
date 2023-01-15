@@ -75,6 +75,7 @@ After the automl runs complete, the best performing model can be viwed in the SD
 
 ### Publishing the pipeline
 Following lines of code show the process for publishing the pipeline and to generate its endpoint.
+
 <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-01%20202716.jpg" width=30% height=30%>
 
 
