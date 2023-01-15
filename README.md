@@ -13,7 +13,7 @@ The second part of the script contains the standard training and testing splits 
 
 ### Script Overview:
 ![Architecture](https://github.com/Satyake/Udacity-ND-Azure/blob/main/compute.jpg)
-
+<img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/compute.jpg" width=50% height=50%>
 
 ### AutoML
 AutoML has been used to train the model. AutoML finds the best model to fit by comparing the performance. The primary metric chosen was the Accuracy in this case.
