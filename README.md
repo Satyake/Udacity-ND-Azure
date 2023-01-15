@@ -112,7 +112,7 @@ After we have the deployment up and running. As an additional requirement for th
 
 <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20150136.jpg" width=30% height=30%>
 
-Following screenshot shows the  REST endpoint and the authentication. (For Obvious reasons the authentication has been deactivated for security reasons).
+Following screenshot shows the  REST endpoint and the authentication. (For obvious reasons the authentication has been deactivated ).
 
 <img src="https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-02%20151447.jpg" width=30% height=30%>
 
