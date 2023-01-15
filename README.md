@@ -120,6 +120,7 @@ Following screenshot shows the endpoint calls though the notebook (VSCODE):
 
 <img src="(https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20105735.jpg" width=30% height=30%>
 ### Logs 
+
 The Service Logs as viewed in the workspace:
 <img src="(https://github.com/Satyake/Udacity-ND-Azure/blob/main/Screenshot%202023-01-04%20132941.jpg" width=30% height=30%>
 
