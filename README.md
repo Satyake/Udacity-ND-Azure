@@ -143,11 +143,12 @@ AutoML Run details as viewed below:
 
 AutoML Performance Results:
 AutoML metrics for the best model
+
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/automl%20other%20metrics.jpg)
 
 ## Neural Network Results (MLP)
 The structure of the neural network can be visually shown as seen below. The figure was generated using an SVG creator based on https://alexlenail.me/NN-SVG/index.html.
-![cap][https://github.com/Satyake/Udacity-ND-Azure/blob/main/nn%20(1).svg]
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/nn%20(1).svg)
 
 
 
