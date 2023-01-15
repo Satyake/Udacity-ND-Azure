@@ -192,9 +192,10 @@ Following figure shows the best hyperdrive combination
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/hyperdrivebestrunmetrics-cap.jpg)
 
 
-
+An important point to consider, due to the stocastic nature of a neural network there will be performance variation as a result of weight initialization technique. For the deployment of the NN i have used the best model which gave the highest F-score.
 
 ### Deployment of NN
+
 
 
 
