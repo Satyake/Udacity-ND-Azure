@@ -136,7 +136,7 @@ As a second deliverable for the capstone, i have decided to go with a Neural Net
 
 Training Regimen: The Neural Network was trained for 500 epochs with a batch size of 12. The train-validation split was set at 25%. The model also leveraged the use of callbacks. The callbacks included a parameter for Variable Learning rate on plateau, a loss monitor that tracks the validation accuracy and a model checkpoint for saving the best model based on improvements. This is discussed in details in the next sections.
 
-## AutoML Results
+### AutoML Results
 
 AutoML Run details as viewed below:
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/automlrundetails-cap.jpg)
@@ -146,15 +146,18 @@ AutoML metrics for the best model
 
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/automl%20other%20metrics.jpg)
 
-## Neural Network Results (MLP)
+### Neural Network Results (MLP)
 The structure of the neural network can be visually shown as seen below. The figure was generated using an SVG creator based on https://alexlenail.me/NN-SVG/index.html.
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/nn%20(1).svg).
 
 The model accepts an input dimension of 13 elements. The second layer has 29 nodes and the third layer has 59 nodes with a final dense layer of a single node with a sigmoid activation function. The single element in the final dense layer is because of binary classification problem statement. The model had 2236 trainable parameters for the given inputs. 
+The following call backs were added
+1) ReduceLRonPlateau: 0.2. The validation loss is monitored before the learning rate is reduced by the fiven factor if validation loss plateaus.
+2) Checkpoint: Tensorflow periodically saves the best performance by monitoring the model checkpoints in each folders created by the callback.
 
 
 
-## Deployment of NN
+### Deployment of NN
 
 
 
