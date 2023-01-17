@@ -195,6 +195,13 @@ An important point to consider, due to the stochastic nature of a neural network
 
 ### Deployment of NN
 
+The model is registered and saved as .h5 file. Following screenshot shows the model registration:
+
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/h5%20register-cap.jpg)
+
+Registerd MLP model as shown in the GUI:
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/registered%20model.jpg)
+
 
 
 
