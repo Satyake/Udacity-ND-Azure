@@ -211,7 +211,7 @@ Json Model Response
 
 Refer to Capstone.ipynb and scoring1.py for Section 3
 
-
+Screencast: https://youtu.be/8UYvH6MWuus
 
 
 
