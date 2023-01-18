@@ -209,8 +209,7 @@ Successfull Deployment of the NN model
 Json Model Response
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/response-cap.jpg)
 
-
-
+Refer to Capstone.ipynb and scoring1.py for Section 3
 
 
 
