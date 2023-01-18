@@ -202,6 +202,13 @@ The model is registered and saved as .h5 file. Following screenshot shows the mo
 Registerd MLP model as shown in the GUI:
 ![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/registered%20model.jpg)
 
+Successfull Deployment of the NN model
+
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/NN_dep.jpg)
+
+Json Model Response
+![cap](https://github.com/Satyake/Udacity-ND-Azure/blob/main/response-cap.jpg)
+
 
 
 
