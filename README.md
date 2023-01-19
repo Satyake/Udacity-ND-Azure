@@ -3,7 +3,7 @@
 
 Verified Certificate
 
-![cap](https://github.com/Satyake/Udacity-ND-Azure]
+![cap](https://github.com/Satyake/Udacity-ND-Azure/ND.PNG)
 
 
 
