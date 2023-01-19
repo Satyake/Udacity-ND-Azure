@@ -1,5 +1,13 @@
 # Udacity-Azure Machine Learning Engineer
 
+
+Verified Certificate
+
+![cap](https://github.com/Satyake/Udacity-ND-Azure]
+
+
+
+
 # Section 1  HyperDrive and AutoML
 
 In this problem, the goal is to predict the Probability or Likelihood of a customer defaulting. The dataset contained data obtained from various financial institutes across the world. The features in the dataset include details like loan amount, credit score, property held, age, income, equities owned .etc Using these features the ML model seeks to classify whether a client has defaulted or not.
